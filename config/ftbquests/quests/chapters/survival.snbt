@@ -389,7 +389,7 @@
 				type: "checkmark"
 			}]
 			title: "Power?"
-			x: 2.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -428,6 +428,130 @@
 			title: "Water?"
 			x: -2.0d
 			y: 0.5d
+		}
+		{
+			id: "090090D18917B770"
+			tasks: [{
+				id: "44D42A29B89A237C"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "6BEB436564484305"
+			tasks: [{
+				id: "0420725406D84CB5"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "0F56A8F7C4104195"
+			tasks: [{
+				id: "2E028C4F50BB7159"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "1C5F6445A081592B"
+			tasks: [{
+				id: "389DF68ACE8236AE"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "6B6BAABBF269E354"
+			tasks: [{
+				id: "585991A626C98462"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "085FADAE53D740B8"
+			tasks: [{
+				id: "5F4F277C23CC7F25"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "20558636300C67EC"
+			tasks: [{
+				id: "3C84E733891D3087"
+				item: "nuclearcraft:chassis"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			id: "36A2C1BCE9D33210"
+			tasks: [{
+				id: "32793EE4B763FE34"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "56479B6BECE4173D"
+			tasks: [{
+				id: "09854B283D57AC39"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "7DC5E4B35590D1AF"
+			tasks: [{
+				id: "502BC2400D0F7D18"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			id: "7D3DF58111EEF1CE"
+			tasks: [{
+				id: "7CB4467BFCBC8FB2"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "7CC4FB9B1A06A724"
+			tasks: [{
+				id: "4C4FBEA81019ADD3"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
 		}
 	]
 	title: "0. Crash Landing."

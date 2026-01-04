@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: "alchemistry:dissolver/sand"})
   event.remove({ id: "alchemistry:dissolver/red_sand"})
   event.remove({ id: "alchemistry:polished_conglomerate"})
-  event.remove({ type: "alchemistry:dissovler", input: "forge:nuggets"})
+  event.remove({ type: "alchemistry:dissovler", input: "#forge:nuggets"})
   event.remove({ type: "alchemistry:combiner", output: "#minecraft:saplings"})
   event.remove({ type: "alchemistry:combiner", output: "#forge:seeds"})
   //event.remove({ not: { mod: 'ad_astra'}, tag: "#forge:storage_blocks"})

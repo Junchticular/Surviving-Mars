@@ -2412,5 +2412,114 @@
     },
     "done": true
   },
+  "projecte:recipes/decorations/collector_mk2": {
+    "criteria": {
+      "has_previous": "2026-01-03 21:59:31 -0500"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/relay_mk2": {
+    "criteria": {
+      "has_previous": "2026-01-03 21:59:36 -0500"
+    },
+    "done": true
+  },
+  "projecte:relay": {
+    "criteria": {
+      "relay": "2026-01-03 21:59:36 -0500"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/condenser_mk2": {
+    "criteria": {
+      "has_previous": "2026-01-03 22:01:59 -0500"
+    },
+    "done": true
+  },
+  "projecte:condenser": {
+    "criteria": {
+      "condenser": "2026-01-03 22:01:59 -0500"
+    },
+    "done": true
+  },
+  "projecte:collector": {
+    "criteria": {
+      "collector": "2026-01-03 22:01:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-01-03 22:02:55 -0500"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/tiny_tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-01-03 22:02:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-01-03 22:02:55 -0500"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/place_windmill": {
+    "criteria": {
+      "place_block": "2026-01-03 22:12:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/secondary_linear_chassis_from_conversion": {
+    "criteria": {
+      "has_item": "2026-01-03 22:12:23 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sail_frame_from_conversion": {
+    "criteria": {
+      "has_item": "2026-01-03 22:12:33 -0500"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2026-01-03 22:19:31 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox_from_conversion": {
+    "criteria": {
+      "has_item": "2026-01-03 22:20:16 -0500"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2026-01-03 22:20:52 -0500",
+      "1": "2026-01-03 22:21:51 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometer_from_conversion": {
+    "criteria": {
+      "has_item": "2026-01-03 22:21:41 -0500"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2026-01-03 22:23:35 -0500"
+    },
+    "done": true
+  },
+  "avaritia:root": {
+    "criteria": {
+      "avaritia:root": "2026-01-04 01:32:49 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

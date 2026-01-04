@@ -6,6 +6,182 @@
 	id: "028C711A4487D07C"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "27D4935CA7CF9A18"
+			tasks: [{
+				id: "401F0D4C12E2BCAF"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			title: "SU -> FE"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			description: ["In order for the alternator to work we will need at least 27 sails hooked up to our windmill."]
+			icon: "create:white_sail"
+			id: "0910CFDD24C4DA2F"
+			subtitle: "Slowly"
+			tasks: [
+				{
+					id: "287304FA39EB9473"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "1BBC33A0F9F94577"
+					item: { Count: 27, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			title: "INFINITE POWER!!!"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "1BEE934BD89E4385"
+			tasks: [{
+				id: "23190443BF0E7AB5"
+				item: "immersiveengineering:windmill_sail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "6BBF615262168C1A"
+			tasks: [{
+				id: "76B2BCC532088106"
+				item: "immersiveengineering:hemp_fabric"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "6F1BE4D84339B17C"
+			tasks: [{
+				id: "53ACA7641F38D7B8"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Using a stone sword made from mars cobblestone, breaking ice will now give significantly more shards, as well as a chance to get rich shards based on the too, tier."]
+			id: "767461ACBD1D297E"
+			tasks: [{
+				id: "484AD6DF1BA53529"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "More Shards"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "44E900609409C646"
+			tasks: [{
+				id: "2E1604FD487ED7CF"
+				item: "kubejs:special_shard_1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "69AC0AEBDC0E74B0"
+			tasks: [{
+				id: "0E5C19AF9D9EBF8C"
+				item: "kubejs:special_shard_2"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "21E860171FC53D2E"
+			tasks: [{
+				id: "5B638BCBA7E496E1"
+				item: "kubejs:special_shard_3"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "4379F75DD086C6DB"
+			tasks: [{
+				id: "7D829443F82B0864"
+				item: "kubejs:special_shard_4"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "4A2231D0E77A5841"
+			tasks: [{
+				id: "780A81CCF1359F18"
+				item: "kubejs:special_shard_6"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "30F2AE82D892B28B"
+			tasks: [{
+				id: "7D90265B68B83AB8"
+				item: "kubejs:special_shard_5"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "7AE337A1C8133FA0"
+			tasks: [{
+				id: "666597DDF8EA2C34"
+				item: "kubejs:special_shard_7"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["767461ACBD1D297E"]
+			id: "38AEE082BE6E52C1"
+			tasks: [{
+				id: "7BDC904FD161BA71"
+				item: "kubejs:special_shard_8"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+	]
 	title: "3. We Have the Technology!"
 }

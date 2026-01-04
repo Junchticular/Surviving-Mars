@@ -1,17 +1,19 @@
-[20:43:12] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[20:43:12] [INIT] Loaded plugins:
-[20:43:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:43:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:43:12] [INIT] - xyz.cryptix.kubejsalchem.KubeJSAlchemPlugin
-[20:43:12] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[20:43:12] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[20:43:12] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[20:43:12] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
-[20:43:12] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[20:43:14] [INFO] chemicals_startup.js#5: Hello, World! (Loaded startup scripts)
-[20:43:14] [INFO] Loaded script startup_scripts:chemicals_startup.js in 0.144 s
-[20:43:14] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[20:43:14] [INFO] Loaded script startup_scripts:example.js in 0.003 s
-[20:43:14] [INFO] Loaded script startup_scripts:item_create.js in 0.003 s
-[20:43:14] [INFO] Loaded script startup_scripts:item_modify.js in 0.001 s
-[20:43:14] [INFO] Loaded 4/4 KubeJS startup scripts in 1.6 s with 0 errors and 0 warnings
+[01:31:47] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:31:47] [INIT] Loaded plugins:
+[01:31:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:31:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[01:31:47] [INIT] - xyz.cryptix.kubejsalchem.KubeJSAlchemPlugin
+[01:31:47] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[01:31:47] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[01:31:47] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[01:31:47] [INIT] - net.byAqua3.avaritia.compat.kubejs.AvaritiaKubeJSPlugin
+[01:31:47] [INIT] - ru.blatfan.kubejsprojecte.kubejs.KubeJSProjectEPlugin
+[01:31:47] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
+[01:31:47] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[01:31:49] [INFO] chemicals_startup.js#5: Hello, World! (Loaded startup scripts)
+[01:31:49] [INFO] Loaded script startup_scripts:chemicals_startup.js in 0.162 s
+[01:31:49] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[01:31:49] [INFO] Loaded script startup_scripts:example.js in 0.003 s
+[01:31:49] [INFO] Loaded script startup_scripts:item_create.js in 0.009 s
+[01:31:49] [INFO] Loaded script startup_scripts:item_modify.js in 0.001 s
+[01:31:49] [INFO] Loaded 4/4 KubeJS startup scripts in 1.461 s with 0 errors and 0 warnings

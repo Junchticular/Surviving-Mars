@@ -1,14 +1,16 @@
-[20:43:14] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[20:43:14] [INIT] Loaded plugins:
-[20:43:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:43:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:43:14] [INIT] - xyz.cryptix.kubejsalchem.KubeJSAlchemPlugin
-[20:43:14] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[20:43:14] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[20:43:14] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[20:43:14] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
-[20:43:14] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[20:43:14] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[20:43:14] [INFO] Loaded script client_scripts:example.js in 0.001 s
-[20:43:14] [INFO] Loaded 1/1 KubeJS client scripts in 0.051 s with 0 errors and 0 warnings
-[20:43:25] [INFO] Client resource reload complete!
+[01:31:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:31:49] [INIT] Loaded plugins:
+[01:31:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:31:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[01:31:49] [INIT] - xyz.cryptix.kubejsalchem.KubeJSAlchemPlugin
+[01:31:49] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[01:31:49] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[01:31:49] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[01:31:49] [INIT] - net.byAqua3.avaritia.compat.kubejs.AvaritiaKubeJSPlugin
+[01:31:49] [INIT] - ru.blatfan.kubejsprojecte.kubejs.KubeJSProjectEPlugin
+[01:31:49] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
+[01:31:49] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[01:31:49] [INFO] example.js#5: Hello, World! (Loaded client scripts)
+[01:31:49] [INFO] Loaded script client_scripts:example.js in 0.002 s
+[01:31:49] [INFO] Loaded 1/1 KubeJS client scripts in 0.03 s with 0 errors and 0 warnings
+[01:31:58] [INFO] Client resource reload complete!

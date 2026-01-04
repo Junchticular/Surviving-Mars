@@ -1,4 +1,17 @@
 {
+  "ae2:charger": null,
+  "ae2:crafting_monitor": null,
+  "ae2:debug": null,
+  "ae2:grid_node_state": null,
+  "ae2:part_icon": null,
+  "ae2:part_mod_name": null,
+  "ae2:part_name": null,
+  "ae2:part_tooltip": null,
+  "ae2:pattern_provider": null,
+  "ae2:power_storage": null,
+  "ae2:server_data": null,
+  "avaritia:collector": null,
+  "avaritia:compressor": null,
   "gravestone:grave": null,
   "immersiveengineering:multiblock_icon": null,
   "immersiveengineering:multiblock_inventory": null,
@@ -55,6 +68,7 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "projecte:emc_provider": null,
   "quality_food:quality": null,
   "storagedrawers:main": null
 }
