@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "08237dbc1d6c4406bac3b580b946c647"
+	name: "Jollyrodger32#08237dbc"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		757D4E31CFF42983: 1
+	}
+	started: {
+		57CA75A1A9763D22: 1767162446981L
+		0000000000000001: 1767162446981L
+		757D4E31CFF42983: 1767162446981L
+		4ECB4E24C0299875: 1767162446981L
+	}
+	completed: {
+		757D4E31CFF42983: 1767162446981L
+		4ECB4E24C0299875: 1767162446981L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

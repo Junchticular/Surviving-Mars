@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IRI",
+    "IGI"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:apple"
+    },
+    "I": {
+      "tag": "forge:gems/emerald"
+    },
+    "R": {
+      "tag": "chemlib:nylon"
+    }
+  },
+  "result": {
+    "item": "generatorgalore:test_generator"
+  }
+}

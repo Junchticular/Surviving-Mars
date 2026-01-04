@@ -1,0 +1,23 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:the_moon/oxygen_distributor",
+        "ad_astra:surviving_mars/netherite_space_suit",
+        "ad_astra:surviving_mars/detection"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [
+        "industrialforegoing:generators/pity",
+        "industrialforegoing:generators/mycelial_reactor"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

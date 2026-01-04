@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "38d57cf1bc9d43668a3d9c80dc1711a5"
+	name: "Junchticular#38d57cf1"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "a56e02a635124a72a887d07842bb784b"
+	name: "Gamer_Mann#a56e02a6"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		757D4E31CFF42983: 1
+	}
+	started: {
+		57CA75A1A9763D22: 1767162106635L
+		0000000000000001: 1767162106635L
+		757D4E31CFF42983: 1767162106635L
+		4ECB4E24C0299875: 1767162106635L
+	}
+	completed: {
+		757D4E31CFF42983: 1767162106653L
+		4ECB4E24C0299875: 1767162106653L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,0 +1,19 @@
+{
+	id: "1F4516C08D144774"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "lootcrate_tester"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "nuclearcraft:hydrochloric_acid_bucket" }
+		{ count: 400, item: "farmersdelight:bacon_sandwich" }
+	]
+	title: "LOOTCRATE TESTER"
+}

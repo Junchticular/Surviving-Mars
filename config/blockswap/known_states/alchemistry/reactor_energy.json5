@@ -1,0 +1,134 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "off",
+			"facing": "north"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "standby",
+			"facing": "north"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "on",
+			"facing": "north"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "disabled",
+			"facing": "south"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "off",
+			"facing": "south"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "standby",
+			"facing": "south"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "on",
+			"facing": "south"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "disabled",
+			"facing": "west"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "off",
+			"facing": "west"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "standby",
+			"facing": "west"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "on",
+			"facing": "west"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "disabled",
+			"facing": "east"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "off",
+			"facing": "east"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "standby",
+			"facing": "east"
+		},
+		"Name": "alchemistry:reactor_energy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power_state": "on",
+			"facing": "east"
+		},
+		"Name": "alchemistry:reactor_energy"
+	}
+]

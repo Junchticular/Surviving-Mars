@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "2AE197EC4EDA7BAC", title: "Progression" }
+		{ id: "715F5DAAA15F250D", title: "Conundrums" }
+		{ id: "021E44A66706A5B3", title: "Bonus" }
+	]
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "catalyst_progession"
+	group: "715F5DAAA15F250D"
+	id: "79C81BFFC0D3F5B1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Catalysts"
+}

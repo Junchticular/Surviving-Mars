@@ -1,0 +1,434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival"
+	group: "2AE197EC4EDA7BAC"
+	icon: "ad_astra:mars_globe"
+	id: "57CA75A1A9763D22"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "4ECB4E24C0299875"
+			rewards: [
+				{
+					id: "28ECA4F762B6C43D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "043C632B86D802D3"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 1000L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CAB26534B400B35"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F73864292B7DC76"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "757D4E31CFF42983"
+				ignore_dimension: false
+				position: [I;
+					-1000
+					0
+					-1000
+				]
+				size: [I;
+					100000
+					1000000
+					100000
+				]
+				title: "Visit Mars"
+				type: "location"
+			}]
+			title: "Crash Landing"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ECB4E24C0299875"]
+			description: ["All we have is this chemistry set. Scanning the area for useable materials will be key to survival."]
+			icon: "alchemistry:combiner"
+			id: "4C229208E7C3C8C4"
+			tasks: [{
+				id: "1FF1CB9481EA0706"
+				title: "Chemistry"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ECB4E24C0299875"]
+			description: ["Our Oxygen system runs on advanced alchemical technology requiring no maintanence - it is important that we keep the room airtight to continue to live"]
+			icon: "ad_astra:oxygen_distributor"
+			id: "7D14D707EEBDBBEF"
+			tasks: [{
+				id: "1C1C3CA6665C31A0"
+				title: "Oxygen System"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ECB4E24C0299875"]
+			description: ["For the best gameplay experience, choose the reward based on the difficulty you are using. Hardcore highly reccomended! IF YOU ARE PLAYING HARDCORE CHOOSE THE OTHER ONE"]
+			icon: "minecraft:player_head"
+			id: "4E069E86F414D1D5"
+			optional: true
+			rewards: [
+				{
+					id: "0D5CB1D3DAA9E297"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01D18E6941E735BC"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 1000L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10FA75AF40A228F7"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A14BF0F9965547B"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F13DF571E8841A7"
+					item: {
+						Count: 1
+						id: "ad_astra:gas_tank"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 1000L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27DC3967C3A30A53"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6608B1D3A1CBA78C"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "447C04CDD427ED70"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "4C5E9A92872BC6FA"
+					item: {
+						Count: 1
+						id: "toughasnails:iron_purified_water_canteen"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4D1FCBE2E2D171BF"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "046D1622B94ACEF5"
+				title: "Hard"
+				type: "checkmark"
+			}]
+			title: "Weenie Hut Jr."
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4ECB4E24C0299875"]
+			description: ["If you are playing hardcore use this quest. These materials, while not as bountiful as the easier mode, will be more valuable to you than you may initially think."]
+			icon: "minecraft:skeleton_skull"
+			id: "390A25FD18CBB0F2"
+			optional: true
+			rewards: [
+				{
+					id: "5718FD4769FF7B8B"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "036E872E939D29D0"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 1000L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "476FD0B9D52E51BB"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C92387C0DCBE36A"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13ACBF209D09D299"
+					item: "sync:shell_constructor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3ED1568BB8566D4B"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "32B5C5CEA98C9B98"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19AF5FC77306BE0C"
+					item: "farmersdelight:potato_crate"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1CC50FC5FD32D62E"
+				type: "checkmark"
+			}]
+			title: "The Salty Spitoon"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4ECB4E24C0299875"]
+			description: [
+				"Our solar panels were lost in the crash. This generator can use burnable elements to make power."
+				""
+				"Note that Ad Astra cables 9/10 times need to have their input/output configured by the wrence in order to distribute power. If all the FE is stuck in your generator this is why!"
+			]
+			icon: "industrialforegoing:gold_gear"
+			id: "7E615DB89E793710"
+			rewards: [
+				{
+					id: "5E66C4523C86197C"
+					item: {
+						Count: 1
+						id: "industrialforegoing:pitiful_generator"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Emergency Generator\",\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7847ABAB6938A58F"
+					item: "ad_astra:steel_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "368FBE92F095ECA3"
+				type: "checkmark"
+			}]
+			title: "Power?"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ECB4E24C0299875"]
+			description: [
+				"Located in the living quarters is a skillet we can cook food on, however our supply is quite limited. The aquesous accumulators were destroyed in the crash, so we must find water here in order for our plants to survive."
+				""
+				"Crops need to be watered daily by right clicking with a water bottle (does not need to be pure)"
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "05A6A0C7845530CF"
+			tasks: [{
+				id: "2FA65F103280AB3B"
+				type: "checkmark"
+			}]
+			title: "Food?"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ECB4E24C0299875"]
+			description: ["We may be able to make a rudimentary furnace for purifying water, though it won't be useful for much else."]
+			icon: "brickfurnace:brick_furnace"
+			id: "49B7AB88405D106D"
+			tasks: [{
+				id: "6F091AF7BBE21EE3"
+				item: "toughasnails:purified_water_bottle"
+				type: "item"
+			}]
+			title: "Water?"
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+	title: "0. Crash Landing."
+}

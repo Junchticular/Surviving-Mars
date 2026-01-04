@@ -1,0 +1,70 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"treadmill_part": "front",
+			"facing": "north"
+		},
+		"Name": "sync:treadmill"
+	},
+	{
+		"Name": "sync:treadmill"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"treadmill_part": "front",
+			"facing": "south"
+		},
+		"Name": "sync:treadmill"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"treadmill_part": "back",
+			"facing": "south"
+		},
+		"Name": "sync:treadmill"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"treadmill_part": "front",
+			"facing": "west"
+		},
+		"Name": "sync:treadmill"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"treadmill_part": "back",
+			"facing": "west"
+		},
+		"Name": "sync:treadmill"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"treadmill_part": "front",
+			"facing": "east"
+		},
+		"Name": "sync:treadmill"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"treadmill_part": "back",
+			"facing": "east"
+		},
+		"Name": "sync:treadmill"
+	}
+]

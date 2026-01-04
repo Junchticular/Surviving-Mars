@@ -1,0 +1,230 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2025-12-28 19:03:52
+Description: Ticking player
+
+java.lang.IndexOutOfBoundsException: Tank 0 not in valid range - [0,0)
+	at org.cyclops.commoncapabilities.ingredient.storage.IngredientComponentStorageWrapperHandlerFluidStack$FluidStorageWrapperSlotted.getFluidInTank(IngredientComponentStorageWrapperHandlerFluidStack.java:294) ~[CommonCapabilities-1.20.1-2.9.11.jar%23231!/:2.9.11] {re:classloading}
+	at org.cyclops.integratedtunnels.part.PartTypeInterfaceFluid$FluidHandler.getFluidInTank(PartTypeInterfaceFluid.java:86) ~[IntegratedTunnels-1.20.1-1.9.3.jar%23253!/:1.9.3] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure$2.lambda$getFluidTankLevel$0(TestProcedure.java:61) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at net.minecraftforge.common.util.LazyOptional.ifPresent(LazyOptional.java:137) ~[forge-1.20.1-47.4.10-universal.jar%23287!/:?] {re:mixin,re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure$2.getFluidTankLevel(TestProcedure.java:61) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure.execute(TestProcedure.java:64) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure.onPlayerTick(TestProcedure.java:28) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.__TestProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2387!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2387!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2387!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:945) ~[forge-1.20.1-47.4.10-universal.jar%23287!/:?] {re:classloading}
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:285) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:toughasnails.mixins.json:MixinPlayer,pl:mixin:APP:adastra-common.mixins.json:common.PlayerMixin,pl:mixin:APP:create.mixins.json:PlayerMixin,pl:mixin:APP:kubejs-common.mixins.json:PlayerMixin,pl:mixin:APP:solclassic-forge.mixins.json:PlayerMixinForge,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:glitchcore.forge.mixins.json:MixinServerPlayer,pl:mixin:APP:toughasnails.mixins.json:MixinServerPlayer,pl:mixin:APP:kubejs-common.mixins.json:ServerPlayerMixin,pl:mixin:APP:rightclickharvest.mixins.json:ServerPlayerMixin,pl:mixin:APP:adastra-common.mixins.json:common.radio.ServerPlayerMixin,pl:mixin:APP:item_obliterator.mixins.json:ServerPlayerMixin,pl:mixin:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:immersiveengineering.mixins.json:accessors.ServerPlayNetHandlerAccess,pl:mixin:APP:adastra-common.mixins.json:common.ServerGamePacketListenerImplMixin,pl:mixin:A}
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Unknown Source) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mods: 
+	IntegratedTunnels (integratedtunnels), Version: 1.9.3
+		Issue tracker URL: https://github.com/CyclopsMC/IntegratedTunnels/issues
+		at TRANSFORMER/integratedtunnels@1.9.3/org.cyclops.integratedtunnels.part.PartTypeInterfaceFluid$FluidHandler.getFluidInTank(PartTypeInterfaceFluid.java:86)
+
+	CommonCapabilities (commoncapabilities), Version: 2.9.11
+		Issue tracker URL: https://github.com/CyclopsMC/CommonCapabilities/issues
+		at TRANSFORMER/commoncapabilities@2.9.11/org.cyclops.commoncapabilities.ingredient.storage.IngredientComponentStorageWrapperHandlerFluidStack$FluidStorageWrapperSlotted.getFluidInTank(IngredientComponentStorageWrapperHandlerFluidStack.java:294)
+
+	WaterSources (watersources), Version: 1.0.0
+		at TRANSFORMER/watersources@1.0.0/com.blackdragonfire.watersources.procedures.TestProcedure$2.lambda$getFluidTankLevel$0(TestProcedure.java:61)
+Stacktrace:
+	at org.cyclops.commoncapabilities.ingredient.storage.IngredientComponentStorageWrapperHandlerFluidStack$FluidStorageWrapperSlotted.getFluidInTank(IngredientComponentStorageWrapperHandlerFluidStack.java:294) ~[CommonCapabilities-1.20.1-2.9.11.jar%23231!/:2.9.11] {re:classloading}
+	at org.cyclops.integratedtunnels.part.PartTypeInterfaceFluid$FluidHandler.getFluidInTank(PartTypeInterfaceFluid.java:86) ~[IntegratedTunnels-1.20.1-1.9.3.jar%23253!/:1.9.3] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure$2.lambda$getFluidTankLevel$0(TestProcedure.java:61) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at net.minecraftforge.common.util.LazyOptional.ifPresent(LazyOptional.java:137) ~[forge-1.20.1-47.4.10-universal.jar%23287!/:?] {re:mixin,re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure$2.getFluidTankLevel(TestProcedure.java:61) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure.execute(TestProcedure.java:64) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.TestProcedure.onPlayerTick(TestProcedure.java:28) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading}
+	at com.blackdragonfire.watersources.procedures.__TestProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic) ~[water_sources_1.20.1_1.0.0.jar%23281!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2387!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2387!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2387!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:945) ~[forge-1.20.1-47.4.10-universal.jar%23287!/:?] {re:classloading}
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:285) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:toughasnails.mixins.json:MixinPlayer,pl:mixin:APP:adastra-common.mixins.json:common.PlayerMixin,pl:mixin:APP:create.mixins.json:PlayerMixin,pl:mixin:APP:kubejs-common.mixins.json:PlayerMixin,pl:mixin:APP:solclassic-forge.mixins.json:PlayerMixinForge,pl:mixin:A}
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 47
+	Entity Name: Junchticular
+	Entity's Exact location: -570.47, 100.00, -393.30
+	Entity's Block location: World: (-571,100,-394), Section: (at 5,4,6 in -36,6,-25; chunk contains blocks -576,-64,-400 to -561,319,-385), Region: (-2,-1; contains chunks -64,-32 to -33,-1, blocks -1024,-64,-512 to -513,319,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:glitchcore.forge.mixins.json:MixinServerPlayer,pl:mixin:APP:toughasnails.mixins.json:MixinServerPlayer,pl:mixin:APP:kubejs-common.mixins.json:ServerPlayerMixin,pl:mixin:APP:rightclickharvest.mixins.json:ServerPlayerMixin,pl:mixin:APP:adastra-common.mixins.json:common.radio.ServerPlayerMixin,pl:mixin:APP:item_obliterator.mixins.json:ServerPlayerMixin,pl:mixin:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:immersiveengineering.mixins.json:accessors.ServerPlayNetHandlerAccess,pl:mixin:APP:adastra-common.mixins.json:common.ServerGamePacketListenerImplMixin,pl:mixin:A}
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23282!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Unknown Source) ~[?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 2345890264 bytes (2237 MiB) / 4286578688 bytes (4088 MiB) up to 9865003008 bytes (9408 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 2600X Six-Core Processor           
+	Identifier: AuthenticAMD Family 23 Model 8 Stepping 2
+	Microarchitecture: Zen+
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Meta Virtual Monitor
+	Graphics card #0 vendor: Meta Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=11.1.45.729
+	Graphics card #1 name: NVIDIA GeForce RTX 3060 Ti
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x2486
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.8180
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 2.40
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 2.40
+	Memory slot #3 type: DDR4
+	Virtual memory max (MB): 31163.60
+	Virtual memory used (MB): 24424.46
+	Swap memory total (MB): 14848.00
+	Swap memory used (MB): 2033.90
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx9408m -Xms256m
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Junchticular'/47, l='ServerLevel[New Test]', x=-570.47, y=100.00, z=-393.30]]
+	Data Packs: vanilla, mod:betterdays, mod:bellsandwhistles, mod:rhino (incompatible), mod:alchemylib (incompatible), mod:geckolib, mod:nonetherportal, mod:dyairdrop, mod:botarium (incompatible), mod:jei, mod:ags_hud_texts, mod:journeymap (incompatible), mod:controlling (incompatible), mod:nuclearcraft, mod:finitewater, mod:configured (incompatible), mod:mixinextras (incompatible), mod:whitenoise (incompatible), mod:crafttweaker (incompatible), mod:forge, mod:alchemistry (incompatible), mod:cofh_core, mod:farmersdelight, mod:voicechat (incompatible), mod:mousetweaks, mod:immersiveengineering (incompatible), mod:jade (incompatible), mod:resourcefulconfig (incompatible), mod:enderio, mod:kotlinforforge (incompatible), mod:flywheel, mod:ponder (incompatible), mod:create, mod:patchouli (incompatible), mod:lexiconfig (incompatible), mod:gravestone, mod:chemlib (incompatible), mod:searchables (incompatible), mod:storagedrawers (incompatible), mod:resourcefullib (incompatible), mod:architectury (incompatible), mod:kubejs (incompatible), mod:ftblibrary (incompatible), mod:solclassic, mod:kubejsalchem, mod:ftbteams (incompatible), mod:ftbchunks (incompatible), mod:jamlib, mod:ftbquests (incompatible), mod:rightclickharvest, mod:appleskin (incompatible), mod:notrample, mod:ags_day_counter, mod:sliceanddice (incompatible), mod:ad_astra (incompatible), create:dynamic_data, mod:watersources, mod:item_obliterator, mod:glitchcore (incompatible), mod:badmobs (incompatible), mod:blockswap (incompatible), mod:necronomicon, mod:toughasnails (incompatible), mod:toughastweaked, mod:lockdownreborn, mod:flinttools (incompatible), mod:cyclopscore, mod:commoncapabilities, mod:integrateddynamics, mod:integratedtunnels
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: forge-47.4.10
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.10.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.10.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.10.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.10.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.10.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		kotlinforforge@4.12.0
+		javafml@null
+		lowcodefml@null
+	Mod List: 
+		betterdays-1.20.1-3.3.4.5-FORGE.jar               |BetterDays                    |betterdays                    |3.3.4.5             |DONE      |Manifest: NOSIGNATURE
+		CyclopsCore-1.20.1-1.21.3.jar                     |Cyclops Core                  |cyclopscore                   |1.21.3              |DONE      |Manifest: NOSIGNATURE
+		bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar      |Create: Bells & Whistles      |bellsandwhistles              |0.4.3-1.20.x        |DONE      |Manifest: NOSIGNATURE
+		rhino-forge-2001.2.3-build.10.jar                 |Rhino                         |rhino                         |2001.2.3-build.10   |DONE      |Manifest: NOSIGNATURE
+		water_sources_1.20.1_1.0.0.jar                    |WaterSources                  |watersources                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		alchemylib-1.20.1-1.0.30.jar                      |AlchemyLib                    |alchemylib                    |1.0.30              |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.8.2.jar                   |GeckoLib 4                    |geckolib                      |4.8.2               |DONE      |Manifest: NOSIGNATURE
+		nonetherportal-1.20.1-1.0.jar                     |No Nether Portal!             |nonetherportal                |1.20.1-1.0          |DONE      |Manifest: NOSIGNATURE
+		dyairdrop-1.0.0-1.20.1-hotfix3.0.jar              |Dyairdrop                     |dyairdrop                     |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		botarium-forge-1.20.1-2.3.4.jar                   |Botarium                      |botarium                      |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.112.jar                  |Just Enough Items             |jei                           |15.20.0.112         |DONE      |Manifest: NOSIGNATURE
+		hud_texts_v3.2_1.20.1_[FORGE].jar                 |Hud Texts                     |ags_hud_texts                 |3.2                 |DONE      |Manifest: NOSIGNATURE
+		journeymap-1.20.1-5.10.3-forge.jar                |Journeymap                    |journeymap                    |5.10.3              |DONE      |Manifest: NOSIGNATURE
+		Controlling-forge-1.20.1-12.0.2.jar               |Controlling                   |controlling                   |12.0.2              |DONE      |Manifest: NOSIGNATURE
+		NuclearCraft-1.20.1-1.2.13.jar                    |Nuclearcraft Neoteric         |nuclearcraft                  |1.2.13              |DONE      |Manifest: NOSIGNATURE
+		finitewater-1.20.1-0.1.2.jar                      |Finite Water                  |finitewater                   |1.20.1-0.1.2        |DONE      |Manifest: NOSIGNATURE
+		configured-forge-1.20.1-2.2.3.jar                 |Configured                    |configured                    |2.2.3               |DONE      |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |DONE      |Manifest: NOSIGNATURE
+		Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar      |Item Obliterator              |item_obliterator              |2.3.0               |DONE      |Manifest: NOSIGNATURE
+		GlitchCore-forge-1.20.1-0.0.1.1.jar               |GlitchCore                    |glitchcore                    |0.0.1.1             |DONE      |Manifest: NOSIGNATURE
+		BadMobs-1.20.1-19.0.4.jar                         |BadMobs                       |badmobs                       |19.0.4              |DONE      |Manifest: NOSIGNATURE
+		whitenoise-1.20.1-forge-1.1.1.jar                 |WhiteNoise                    |whitenoise                    |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		Block Swap-forge-1.20.1-5.0.0.0.jar               |Block Swap                    |blockswap                     |5.0.0.0             |DONE      |Manifest: NOSIGNATURE
+		CraftTweaker-forge-1.20.1-14.0.59.jar             |CraftTweaker                  |crafttweaker                  |14.0.59             |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.4.10-universal.jar                |Forge                         |forge                         |47.4.10             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		alchemistry-1.20.1-2.3.4.jar                      |Alchemistry                   |alchemistry                   |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		cofh_core-1.20.1-11.0.2.56.jar                    |CoFH Core                     |cofh_core                     |11.0.2              |DONE      |Manifest: NOSIGNATURE
+		FarmersDelight-1.20.1-1.2.9.jar                   |Farmer's Delight              |farmersdelight                |1.20.1-1.2.9        |DONE      |Manifest: NOSIGNATURE
+		voicechat-forge-1.20.1-2.6.10.jar                 |Simple Voice Chat             |voicechat                     |1.20.1-2.6.10       |DONE      |Manifest: NOSIGNATURE
+		CommonCapabilities-1.20.1-2.9.11.jar              |CommonCapabilities            |commoncapabilities            |2.9.11              |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		Necronomicon-Forge-1.6.0+1.20.1.jar               |Necronomicon                  |necronomicon                  |1.6.0               |DONE      |Manifest: NOSIGNATURE
+		ImmersiveEngineering-1.20.1-10.2.0-183.jar        |Immersive Engineering         |immersiveengineering          |1.20.1-10.2.0-183   |DONE      |Manifest: 44:39:94:cf:1d:8c:be:3c:7f:a9:ee:f4:1e:63:a5:ac:61:f9:c2:87:d5:5b:d9:d6:8c:b5:3e:96:5d:8e:3f:b7
+		Jade-1.20.1-Forge-11.13.2.jar                     |Jade                          |jade                          |11.13.2+forge       |DONE      |Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.20.1-2.1.3.jar          |Resourcefulconfig             |resourcefulconfig             |2.1.3               |DONE      |Manifest: NOSIGNATURE
+		EnderIO-1.20.1-6.2.16-beta-all.jar                |Ender IO                      |enderio                       |6.2.16-beta         |DONE      |Manifest: NOSIGNATURE
+		kffmod-4.12.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.12.0              |DONE      |Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-1.0.5.jar                   |Flywheel                      |flywheel                      |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		Ponder-Forge-1.20.1-1.0.91.jar                    |Ponder                        |ponder                        |1.0.91              |DONE      |Manifest: NOSIGNATURE
+		create-1.20.1-6.0.8.jar                           |Create                        |create                        |6.0.8               |DONE      |Manifest: NOSIGNATURE
+		Patchouli-1.20.1-84.1-FORGE.jar                   |Patchouli                     |patchouli                     |1.20.1-84.1-FORGE   |DONE      |Manifest: NOSIGNATURE
+		lexiconfig-forge-1.4.18-1.jar                     |Lexiconfig                    |lexiconfig                    |1.4.18-1            |DONE      |Manifest: NOSIGNATURE
+		IntegratedDynamics-1.20.1-1.29.8.jar              |IntegratedDynamics            |integrateddynamics            |1.29.8              |DONE      |Manifest: NOSIGNATURE
+		gravestone-forge-1.20.1-1.0.35.jar                |Gravestone Mod                |gravestone                    |1.20.1-1.0.35       |DONE      |Manifest: NOSIGNATURE
+		chemlib-1.20.1-2.0.19.jar                         |ChemLib                       |chemlib                       |2.0.19              |DONE      |Manifest: NOSIGNATURE
+		Searchables-forge-1.20.1-1.0.3.jar                |Searchables                   |searchables                   |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		StorageDrawers-forge-1.20.1-12.14.3.jar           |Storage Drawers               |storagedrawers                |12.14.3             |DONE      |Manifest: NOSIGNATURE
+		ToughAsNails-forge-1.20.1-9.2.0.171.jar           |Tough As Nails                |toughasnails                  |9.2.0.171           |DONE      |Manifest: NOSIGNATURE
+		toughastweaked-1.0.2.jar                          |Tough As Tweaked              |toughastweaked                |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		IntegratedTunnels-1.20.1-1.9.3.jar                |IntegratedTunnels             |integratedtunnels             |1.9.3               |DONE      |Manifest: NOSIGNATURE
+		flinttools-1.0.0.jar                              |Flint Tools                   |flinttools                    |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20.1-2.1.29.jar            |Resourceful Lib               |resourcefullib                |2.1.29              |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.16.jar                |KubeJS                        |kubejs                        |2001.6.5-build.16   |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-2001.2.12.jar                   |FTB Library                   |ftblibrary                    |2001.2.12           |DONE      |Manifest: NOSIGNATURE
+		spiceoflife_classic-forge-2.01.1.jar              |Spice of Life: Classic Edition|solclassic                    |2.01.1              |DONE      |Manifest: NOSIGNATURE
+		kubejsalchem-1.20.1-1.1.2-R.jar                   |KubeJS Alchemistry            |kubejsalchem                  |1.20.1-1.1.2-R      |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-2001.3.1.jar                      |FTB Teams                     |ftbteams                      |2001.3.1            |DONE      |Manifest: NOSIGNATURE
+		ftb-chunks-forge-2001.3.6.jar                     |FTB Chunks                    |ftbchunks                     |2001.3.6            |DONE      |Manifest: NOSIGNATURE
+		jamlib-forge-1.3.5+1.20.1.jar                     |JamLib                        |jamlib                        |1.3.5+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		ftb-quests-forge-2001.4.17.jar                    |FTB Quests                    |ftbquests                     |2001.4.17           |DONE      |Manifest: NOSIGNATURE
+		rightclickharvest-forge-4.6.0+1.20.1.jar          |Right Click Harvest           |rightclickharvest             |4.6.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.20.1-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		lockdownreborn-1.20.1-1.0.0.jar                   |LockdownReborn                |lockdownreborn                |1.20.1-1.0.0        |DONE      |Manifest: NOSIGNATURE
+		notrample-1.20.1-1.0.1.jar                        |No Trample                    |notrample                     |1.20.1-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		day_counter_v5.1_1.20.1_[FORGE].jar               |Day Counter                   |ags_day_counter               |5.1                 |DONE      |Manifest: NOSIGNATURE
+		sliceanddice-forge-3.6.0.jar                      |Create Slice & Dice           |sliceanddice                  |3.6.0               |DONE      |Manifest: NOSIGNATURE
+		ad_astra-forge-1.20.1-1.15.20.jar                 |Ad Astra                      |ad_astra                      |1.15.20             |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 2f7d0690-085e-437a-9829-c0bf468a3900
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.10
+	Flywheel Backend: flywheel:indirect

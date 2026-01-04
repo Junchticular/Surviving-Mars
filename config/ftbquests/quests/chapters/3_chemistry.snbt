@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3_chemistry"
+	group: "2AE197EC4EDA7BAC"
+	id: "028C711A4487D07C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "3. We Have the Technology!"
+}

@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "715F5DAAA15F250D"
+	id: "1CBBACB01BC49955"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F462B2AB5353789"
+			tasks: [{
+				id: "1A7EE8FB38151F1D"
+				item: "toughasnails:water_purifier"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "3A77EE184A5C5754"
+			tasks: [{
+				id: "28D723801ADFD454"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60524966FDA5FE55"]
+			id: "16D41CAEEE735359"
+			tasks: [{
+				id: "02E2EB100139EE14"
+				item: "dew_drop_farmland_growth:garden_pot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "6888E152FB5013D0"
+			tasks: [{
+				id: "577C6B742E566AFF"
+				item: "dew_drop_farmland_growth:weak_fertilizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "6D21B634084CBCBE"
+			tasks: [{
+				id: "3C3B2FFB15082AC5"
+				item: "dew_drop_farmland_growth:strong_fertilizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "4B1FE1626ABA07CA"
+			tasks: [{
+				id: "21F7E333D2A2A628"
+				item: "dew_drop_farmland_growth:hyper_fertilizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "0134C63370C1BE63"
+			tasks: [{
+				id: "4ED03F1D1D37E5E4"
+				item: "minecraft:farmland"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "60524966FDA5FE55"
+			tasks: [{
+				id: "00342A5BB4BE75A7"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5707E2BF597F1371"]
+			id: "5B7CB34D1FE0B7A1"
+			tasks: [{
+				id: "17FF75916C8798A2"
+				item: "toughasnails:purified_water_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4F908DB4A478727F"]
+			id: "2F6E062E31A2B232"
+			tasks: [{
+				id: "378779A222FE84E5"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2F6E062E31A2B232"]
+			id: "5707E2BF597F1371"
+			tasks: [{
+				id: "7BB565F741CB0DEC"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			id: "4F908DB4A478727F"
+			tasks: [{
+				id: "4750884FAB90420C"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			id: "3066393D1F002361"
+			tasks: [{
+				id: "059DC6028F3328A8"
+				item: "chemlib:kaolinite"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			id: "06F7483158DDB699"
+			tasks: [{
+				id: "783AD99A8C9E007D"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			id: "744847AB40AA7283"
+			tasks: [{
+				id: "52C9B61FC52A6D63"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			id: "795596838FE45CBA"
+			tasks: [{
+				id: "7BCDD4115D0A5D6F"
+				item: "brickfurnace:brick_furnace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+	]
+	title: "Survival Needs"
+}

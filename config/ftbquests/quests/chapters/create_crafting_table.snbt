@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_crafting_table"
+	group: "2AE197EC4EDA7BAC"
+	icon: "minecraft:crafting_table"
+	id: "4A5B4DF91900D9A8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2DF10B3BFD03C91F"
+				"681E54E718A70A0D"
+				"02CB56722FD3557A"
+			]
+			id: "44AEA964148E33EC"
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "44E2368EF5913F22"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79175B1A94011EB1"]
+			description: ["May want to figure out a food solution before using this too much..."]
+			id: "0BB4454260191E11"
+			shape: "pentagon"
+			tasks: [{
+				id: "4248906FDC1C6668"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "\"Hand Crank\""
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4626728819066DE4"
+				"12945AEA38D2D5E9"
+			]
+			id: "20FC5FBF5304FACA"
+			shape: "hexagon"
+			tasks: [{
+				id: "7C0DAE8E6BDD90B3"
+				item: {
+					Count: 1
+					id: "create:red_sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2472EB1BEE299F0D"]
+			id: "5A813C786819B79A"
+			tasks: [{
+				id: "3728692FB3967BCF"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "Sanding Sand to get Sand: The Sandquel"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20FC5FBF5304FACA"]
+			id: "2472EB1BEE299F0D"
+			tasks: [{
+				id: "08F08D97590CA9B1"
+				item: "minecraft:red_sand"
+				type: "item"
+			}]
+			title: "Sanding Sand to get Sand"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2472EB1BEE299F0D"]
+			id: "4EE64198F5060BC7"
+			tasks: [{
+				count: 64L
+				id: "352E9B39BC8E2620"
+				item: "chemlib:iron"
+				type: "item"
+			}]
+			title: "Fe En Masse"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A813C786819B79A"]
+			description: ["This is not useful for a while, but I'd hang on to it."]
+			id: "30412F4E96AF45F3"
+			tasks: [{
+				id: "24B4541E1D899DC1"
+				item: "chemlib:gold"
+				type: "item"
+			}]
+			title: "GOLD?!"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"562A4C1E1D3BF622"
+				"1BA24882F7E77CC1"
+				"0BB4454260191E11"
+			]
+			id: "4626728819066DE4"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1E058CFFD21FD8F9"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["722D79B0F1410C37"]
+			id: "562A4C1E1D3BF622"
+			tasks: [{
+				id: "3BF6D91A4087176C"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"79175B1A94011EB1"
+				"1AC8E6BF4D3206D4"
+			]
+			id: "722D79B0F1410C37"
+			shape: "circle"
+			tasks: [{
+				id: "2D8935592BA0C53E"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57F7D36A7500EE5E"]
+			id: "71C05B1463330461"
+			tasks: [{
+				id: "1E19EC68AA2FF4D4"
+				item: "chemlib:aluminum"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71C05B1463330461"]
+			id: "0C812BD4E413A346"
+			tasks: [{
+				id: "1C8E262A47DB1FE7"
+				item: "chemlib:aluminum_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C812BD4E413A346"]
+			id: "3661C280EC67CC92"
+			tasks: [{
+				id: "388914A1D1981D13"
+				item: "immersiveengineering:stick_aluminum"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3661C280EC67CC92"]
+			id: "1BA24882F7E77CC1"
+			tasks: [{
+				id: "5B7BC63A51007793"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["722D79B0F1410C37"]
+			id: "12945AEA38D2D5E9"
+			tasks: [{
+				id: "1E75F8A9A0A6ECC9"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12945AEA38D2D5E9"]
+			id: "2773DE1672E732AE"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6F870AD42C1124C5"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["321F5B9EF3F5BD47"]
+			id: "2455BF45BFBF4BF8"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2049CF78E41074B0"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2773DE1672E732AE"
+				"4C42A0CAA84CED80"
+			]
+			id: "321F5B9EF3F5BD47"
+			tasks: [{
+				id: "2BB612284F54337D"
+				item: {
+					Count: 1
+					id: "immersiveengineering:sawblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56EF25F837D0CBA5"]
+			id: "4C42A0CAA84CED80"
+			tasks: [{
+				id: "43AC7497F624B213"
+				item: "chemlib:hydrochloric_acid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B2788EFC278660D"]
+			id: "2FFE74BE251F5952"
+			tasks: [{
+				id: "1DA3854522252433"
+				item: "chemlib:iron_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2455BF45BFBF4BF8"
+				"2FFE74BE251F5952"
+			]
+			id: "68550228775FDC07"
+			tasks: [{
+				id: "1DA0B7706CC56367"
+				item: "ad_astra:iron_rod"
+				type: "item"
+			}]
+			title: "Rods! At a Cheap Price!"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2773DE1672E732AE"]
+			id: "0B2788EFC278660D"
+			tasks: [
+				{
+					id: "692CA3DCE1E91CE8"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "4F1C78F7E53A39F6"
+					item: "chemlib:aluminum_nugget"
+					type: "item"
+				}
+				{
+					id: "61309AD404A33B59"
+					item: "chemlib:nickel_nugget"
+					type: "item"
+				}
+				{
+					id: "7955376D6F21D49F"
+					item: "chemlib:magnesium_nugget"
+					type: "item"
+				}
+				{
+					id: "7B70AA88C5B6A40A"
+					item: "chemlib:manganese_nugget"
+					type: "item"
+				}
+			]
+			title: "Nuggets from Chemicals!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72353653D0B0947C"]
+			id: "46AEEEE5CD905913"
+			tasks: [{
+				id: "4798395F82CD17CF"
+				item: "immersiveengineering:stick_aluminum"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B2788EFC278660D"]
+			id: "72353653D0B0947C"
+			tasks: [{
+				id: "6504A680C44244C2"
+				item: "chemlib:aluminum_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B2788EFC278660D"]
+			id: "2DF10B3BFD03C91F"
+			tasks: [{
+				id: "0EDE46F42138CE25"
+				item: "chemlib:nickel_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B2788EFC278660D"]
+			id: "681E54E718A70A0D"
+			tasks: [{
+				id: "6A3E35D59A7412FF"
+				item: "chemlib:magnesium_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B2788EFC278660D"]
+			id: "02CB56722FD3557A"
+			tasks: [{
+				id: "084229D9C9B92C8C"
+				item: "chemlib:manganese_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "2. Create: Crafting Table"
+}

@@ -1,0 +1,635 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_survival"
+	group: "2AE197EC4EDA7BAC"
+	icon: "ad_astra:mars_sand"
+	id: "2EE59AF8E3E276E2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["There's some potentially useful chemicals in the dust located on Mars' surface."]
+			icon: "ad_astra:mars_sand"
+			id: "743AB596CE6711F2"
+			rewards: [{
+				count: 48
+				id: "46F1054E00D31011"
+				item: "ad_astra:mars_sand"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 16L
+				id: "7818AA4CAAFC1DD8"
+				item: "ad_astra:mars_sand"
+				type: "item"
+			}]
+			title: "Surface Sample"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "4CD197BDAD4AE81A"
+			tasks: [{
+				count: 16L
+				id: "3C1986B78A31DC98"
+				item: { Count: 16, id: "chemlib:silicon_dioxide" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "42759C21B1AF623D"
+			tasks: [{
+				id: "130F715318428CF0"
+				item: "chemlib:iron_ii_oxide"
+				type: "item"
+			}]
+			title: "Iron 2"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "57F7D36A7500EE5E"
+			tasks: [{
+				id: "235C37F648F35B60"
+				item: "chemlib:aluminum_oxide"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "39C11C6AE4FABA92"
+			tasks: [{
+				id: "5B61D59D17C5EDCA"
+				item: "chemlib:magnesium_oxide"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "5BE3ED877B405C3B"
+			tasks: [{
+				id: "070D1EAD25D3489D"
+				item: "chemlib:iron_oxide"
+				type: "item"
+			}]
+			title: "Iron 1"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "301D98BD944629C8"
+			tasks: [{
+				id: "4ADB8B9F39C78FB5"
+				item: "chemlib:potassium_oxide"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "4489556B41ECF685"
+			tasks: [{
+				id: "39C629612DD149F8"
+				item: "chemlib:phosphate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "56EF25F837D0CBA5"
+			tasks: [{
+				id: "10DA7FBD0D4D86D4"
+				item: "chemlib:chlorine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["743AB596CE6711F2"]
+			id: "3B6E229BEAC159EE"
+			tasks: [{
+				id: "37DC910E057BD36B"
+				item: "chemlib:sulfur_trioxide"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CD197BDAD4AE81A"]
+			id: "08CA37D14B3A6591"
+			tasks: [{
+				id: "07DD0F8E2A734A9D"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"42759C21B1AF623D"
+				"5BE3ED877B405C3B"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Iron dust is one of few materials we can use to create tools right now."]
+			id: "484C04B0EFBA960C"
+			tasks: [{
+				count: 6L
+				id: "6656BE22285258B1"
+				item: "chemlib:iron_dust"
+				type: "item"
+			}]
+			title: "Iron Dust"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08CA37D14B3A6591"]
+			id: "2D1F8EC017E66BBD"
+			tasks: [{
+				id: "7A2543891B1D4C75"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["484C04B0EFBA960C"]
+			description: ["Rod time"]
+			id: "77692099B67CAE5F"
+			tasks: [{
+				id: "29849E28F0EA377B"
+				item: "ad_astra:iron_rod"
+				type: "item"
+			}]
+			title: "Rod to meet you"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"77692099B67CAE5F"
+				"2D1F8EC017E66BBD"
+			]
+			description: ["You will need a lot of these."]
+			id: "20B9F32E96EED495"
+			shape: "pentagon"
+			tasks: [{
+				id: "09290B285628EA0F"
+				item: {
+					Count: 1
+					id: "flinttools:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: ["Right click the air with an empty bottle to gather some."]
+			id: "297480A6D92194FD"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "76741C45CE8D5C4F"
+				item: "kubejs:mars_air"
+				type: "item"
+			}]
+			title: "Air Sample"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["297480A6D92194FD"]
+			id: "141611F93EFBD4BC"
+			tasks: [{
+				id: "42B2F289C7556468"
+				item: "chemlib:nitrogen"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["297480A6D92194FD"]
+			id: "36D0555D25DA60AF"
+			tasks: [{
+				id: "3EF870286AEC85DE"
+				item: "chemlib:carbon_dioxide"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["297480A6D92194FD"]
+			id: "6C6FBE19DFD14FEB"
+			tasks: [{
+				id: "5523346C53474F73"
+				item: "chemlib:argon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"36D0555D25DA60AF"
+				"1CE1984C00DD068E"
+			]
+			id: "6E99D321F403230F"
+			tasks: [{
+				id: "3062FA0D84544EA7"
+				item: "chemlib:methane"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"141611F93EFBD4BC"
+				"6E99D321F403230F"
+			]
+			id: "66BA5FBF7BC94A95"
+			tasks: [{
+				id: "6EFDF9BB45ACF011"
+				item: "chemlib:nylon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20B9F32E96EED495"]
+			description: ["Use a knife to gather ice shards by breaking packed ice."]
+			id: "4719494AC0570FE1"
+			tasks: [{
+				count: 16L
+				id: "6E68D9506F97EF34"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			title: "The Poles"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4719494AC0570FE1"]
+			id: "10117B4B36E97CF3"
+			tasks: [{
+				id: "6BBF2978DEB53F18"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			title: "Water!"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10117B4B36E97CF3"]
+			id: "1CE1984C00DD068E"
+			tasks: [{
+				id: "41CCCC490055665E"
+				item: "chemlib:hydrogen"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["771E1BFBD1DD1C5A"]
+			id: "1817BD54E8291ED4"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6EA47988E6CABB7F"
+				item: {
+					Count: 1
+					id: "flinttools:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["66BA5FBF7BC94A95"]
+			id: "771E1BFBD1DD1C5A"
+			tasks: [{
+				id: "1B5409DC6B7BA93E"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10117B4B36E97CF3"]
+			id: "47D8B89B39D23D19"
+			tasks: [{
+				id: "7C6AEB91F0656422"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1817BD54E8291ED4"]
+			id: "29F2E0CEF98EBDF3"
+			tasks: [{
+				id: "1AB9AE0FB6EA7CC4"
+				item: "ad_astra:conglomerate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["29F2E0CEF98EBDF3"]
+			id: "1755B5F5EBD14F13"
+			tasks: [{
+				id: "2E824D89B1F25788"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["29F2E0CEF98EBDF3"]
+			id: "605184B8118FDB99"
+			tasks: [{
+				id: "4E36D6C178A627EB"
+				item: "chemlib:magnesium_oxide"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["29F2E0CEF98EBDF3"]
+			id: "4B13C1588A51AF95"
+			tasks: [{
+				id: "211C4AF0A6423C8E"
+				item: "chemlib:nickel_oxide"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["29F2E0CEF98EBDF3"]
+			id: "3662E9E2D1D188D5"
+			tasks: [{
+				id: "59CCEB6B1E844994"
+				item: "chemlib:manganese_oxide"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29F2E0CEF98EBDF3"]
+			id: "7D0ADCE1C4BB7F58"
+			tasks: [{
+				id: "13DF5C32F0A0412A"
+				item: "chemlib:thorium"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4CD197BDAD4AE81A"]
+			id: "081768DA6C9FD360"
+			tasks: [{
+				id: "2D66EB57F791ADEC"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1755B5F5EBD14F13"
+				"081768DA6C9FD360"
+				"15475B982B450F1C"
+			]
+			id: "79175B1A94011EB1"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1AF1C76BBF6BAB3E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1817BD54E8291ED4"]
+			id: "4133043C4C4E92F4"
+			tasks: [{
+				id: "547EB2B8F6AC0FCC"
+				item: "ad_astra:mars_cobblestone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10117B4B36E97CF3"]
+			id: "15475B982B450F1C"
+			tasks: [{
+				id: "614C2A1FF8FF4072"
+				item: "chemlib:pentane"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["301D98BD944629C8"]
+			description: ["Potassium can be used to make potatos if you are running low. This is unreliable due to the rarity of the element here."]
+			icon: "minecraft:potato"
+			id: "31B0773BF2635007"
+			tasks: [{
+				id: "5FBC813B80EB253C"
+				type: "checkmark"
+			}]
+			title: "Emergency Potato"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"57F7D36A7500EE5E"
+				"4CD197BDAD4AE81A"
+			]
+			id: "3190073080F3C2BD"
+			tasks: [{
+				id: "2A3E524B0C0E1B88"
+				item: "chemlib:kaolinite"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3190073080F3C2BD"]
+			id: "581E2CD9432F22FF"
+			tasks: [{
+				id: "323C78BE457428E5"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["581E2CD9432F22FF"]
+			id: "6CDA9906429AD1E5"
+			tasks: [{
+				id: "2E4F8DD43CBF1384"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6CDA9906429AD1E5"
+				"4133043C4C4E92F4"
+			]
+			description: [""]
+			id: "48B7458CE74E0DCD"
+			tasks: [{
+				id: "224D58219526CDC5"
+				item: "brickfurnace:brick_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"48B7458CE74E0DCD"
+				"47D8B89B39D23D19"
+			]
+			id: "706EE298F9CAA3B6"
+			tasks: [{
+				id: "3EF2818B212E0DF2"
+				item: "toughasnails:purified_water_bottle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1755B5F5EBD14F13"]
+			description: ["Until you get the compactor, there is no way to turn iron chemicals back into nuggets."]
+			icon: "chemlib:iron"
+			id: "5A14C45780500DF6"
+			tasks: [
+				{
+					id: "60AFFCDF29FC57BC"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					id: "66286E48CB4B8578"
+					type: "checkmark"
+				}
+			]
+			title: "Not Worth It"
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"79175B1A94011EB1"
+				"35172346E462C42B"
+			]
+			id: "1AC8E6BF4D3206D4"
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "1BEFAAEC3DB89488"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["29F2E0CEF98EBDF3"]
+			id: "7D247751EC9E285B"
+			tasks: [{
+				id: "4C538F8AE9A0AD41"
+				item: "chemlib:chromium_oxide"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7D247751EC9E285B"]
+			id: "6E6B445E89A4DFAB"
+			tasks: [{
+				id: "17392872FFD33214"
+				item: "chemlib:chromium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6E6B445E89A4DFAB"]
+			id: "35172346E462C42B"
+			tasks: [{
+				id: "5EAB7D9CD39B1B39"
+				item: "chemlib:chromium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+	]
+	title: "1. Scraping By"
+}
