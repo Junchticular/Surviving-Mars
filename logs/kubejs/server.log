@@ -1,41 +1,51 @@
-[01:32:29] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[01:32:29] [INIT] Loaded plugins:
-[01:32:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[01:32:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[01:32:29] [INIT] - xyz.cryptix.kubejsalchem.KubeJSAlchemPlugin
-[01:32:29] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[01:32:29] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[01:32:29] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[01:32:29] [INIT] - net.byAqua3.avaritia.compat.kubejs.AvaritiaKubeJSPlugin
-[01:32:29] [INIT] - ru.blatfan.kubejsprojecte.kubejs.KubeJSProjectEPlugin
-[01:32:29] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
-[01:32:29] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[01:32:29] [INFO] blockloot.js#5: Hello, World! (Loaded server scripts)
-[01:32:29] [INFO] Loaded script server_scripts:blockloot.js in 0.002 s
-[01:32:29] [INFO] bottled_air.js#5: Hello, World! (Loaded server scripts)
-[01:32:29] [INFO] Loaded script server_scripts:bottled_air.js in 0.003 s
-[01:32:29] [INFO] Loaded script server_scripts:element_modifications.js in 0.012 s
-[01:32:29] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[01:32:29] [INFO] Loaded script server_scripts:example.js in 0.001 s
-[01:32:29] [INFO] Loaded 4/4 KubeJS server scripts in 0.025 s with 0 errors and 0 warnings
-[01:32:29] [INFO] Scripts loaded
-[01:32:29] [INFO] Initializing recipe event...
-[01:32:31] [INFO] Processing recipes...
-[01:32:31] [WARN] Failed to parse recipe 'minecraft:wooden_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:wooden_shovel[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:wooden_hoe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:wooden_pickaxe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:stone_pickaxe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:wooden_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:stone_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:stone_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:stone_hoe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [WARN] Failed to parse recipe 'minecraft:stone_shovel[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[01:32:32] [INFO] Found 17037 recipes in 554.1 ms
-[01:32:32] [INFO] element_modifications.js#392: Hello! The recipe event has fired!
-[01:32:32] [INFO] Posted recipe events in 61.76 ms
-[01:32:32] [WARN] Error parsing recipe create:kjs/e0tmmzk2npt89pro8t4to1dmt[create:compacting]: {"type":"create:compacting","results":[{"fluid":"chemlib:iron_nugget","amount":1000}],"ingredients":[{"item":"chemlib:iron"},{"item":"chemlib:iron"}]}: Invalid empty fluid 'chemlib:iron_nugget'
-[01:32:32] [INFO] Added 55 recipes, removed 3417 recipes, modified 0 recipes, with 1 failed recipes in 184.2 ms
-[01:32:32] [WARN] blockloot.js#9: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[01:32:32] [WARN] blockloot.js#10: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
-[01:32:43] [INFO] Server resource reload complete!
+[07:21:06] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[07:21:06] [INIT] Loaded plugins:
+[07:21:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[07:21:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[07:21:06] [INIT] - xyz.cryptix.kubejsalchem.KubeJSAlchemPlugin
+[07:21:06] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[07:21:06] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[07:21:06] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[07:21:06] [INIT] - net.byAqua3.avaritia.compat.kubejs.AvaritiaKubeJSPlugin
+[07:21:06] [INIT] - ru.blatfan.kubejsprojecte.kubejs.KubeJSProjectEPlugin
+[07:21:06] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
+[07:21:06] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[07:21:06] [INFO] blockloot.js#5: Hello, World! (Loaded server scripts)
+[07:21:06] [INFO] Loaded script server_scripts:blockloot.js in 0.001 s
+[07:21:06] [INFO] bottled_air.js#5: Hello, World! (Loaded server scripts)
+[07:21:06] [INFO] Loaded script server_scripts:bottled_air.js in 0.006 s
+[07:21:06] [INFO] Loaded script server_scripts:element_modifications.js in 0.011 s
+[07:21:06] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[07:21:06] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[07:21:06] [INFO] Loaded 4/4 KubeJS server scripts in 0.031 s with 0 errors and 0 warnings
+[07:21:06] [INFO] Scripts loaded
+[07:21:06] [INFO] Initializing recipe event...
+[07:21:09] [INFO] Processing recipes...
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:wooden_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:wooden_shovel[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:wooden_hoe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:wooden_pickaxe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:stone_pickaxe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:wooden_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:stone_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:09] [WARN] Failed to parse recipe 'minecraft:stone_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:10] [WARN] Failed to parse recipe 'minecraft:stone_hoe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:10] [WARN] Failed to parse recipe 'minecraft:stone_shovel[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[07:21:10] [INFO] Found 17037 recipes in 629.9 ms
+[07:21:10] [INFO] element_modifications.js#392: Hello! The recipe event has fired!
+[07:21:10] [INFO] Posted recipe events in 78.14 ms
+[07:21:10] [WARN] Error parsing recipe create:kjs/e0tmmzk2npt89pro8t4to1dmt[create:compacting]: {"type":"create:compacting","results":[{"fluid":"chemlib:iron_nugget","amount":1000}],"ingredients":[{"item":"chemlib:iron"},{"item":"chemlib:iron"}]}: Invalid empty fluid 'chemlib:iron_nugget'
+[07:21:10] [INFO] Added 55 recipes, removed 3417 recipes, modified 0 recipes, with 1 failed recipes in 214.0 ms
+[07:21:10] [WARN] blockloot.js#9: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[07:21:10] [WARN] blockloot.js#10: You don't need to call .ignoreNBT() anymore, all item ingredients ignore NBT by default!
+[07:21:22] [INFO] Server resource reload complete!
+[07:22:11] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -537.3528633532004, Y: -50.951572683926855, Z: -362.5984230922015 }
+[07:22:25] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -537.3528633532004, Y: -47.20720696265376, Z: -362.5984230922015 }
+[07:22:44] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -529.460916860852, Y: 12.819333474324512, Z: -365.4899285898748 }
+[07:22:55] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -477.9450673957361, Y: 55.1870514634526, Z: -332.0303646499558 }
+[07:22:57] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -477.9693175623833, Y: 63.79630552990768, Z: -332.0303646499558 }
+[07:23:03] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -486.4116892033095, Y: 103.96888474263591, Z: -336.40876752036866 }
+[07:23:08] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -532.6573879447167, Y: 131.11321711725475, Z: -375.864927340191 }
+[07:23:08] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -533.4612529760775, Y: 138.2382174003768, Z: -376.08344165115216 }
+[07:23:09] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -533.5896507811298, Y: 145.36321768349887, Z: -376.09420945442565 }
+[07:23:10] [INFO] bottled_air.js#9: literal{Junchticular} position = { X: -533.5896507811298, Y: 152.11321795171978, Z: -376.09420945442565 }

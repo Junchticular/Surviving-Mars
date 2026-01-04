@@ -1,5 +1,15 @@
 StartupEvents.registry('item', event => {
 
+  event.create('light_mars_air')
+    .displayName('Light Mars Air')
+    .maxStackSize(64)
+    .textureJson({
+        layer0: 'minecraft:item/potion',
+        layer1: 'minecraft:item/potion_overlay'
+    })
+    .color(0, '#ffffff')
+    .color(1, '#ff9557')
+
   event.create('mars_air')
     .displayName('Mars Air')
     .maxStackSize(64)
@@ -9,6 +19,36 @@ StartupEvents.registry('item', event => {
     })
     .color(0, '#ffffff')
     .color(1, '#fc5e03')
+
+  event.create('dense_mars_air')
+    .displayName('Dense Mars Air')
+    .maxStackSize(64)
+    .textureJson({
+        layer0: 'minecraft:item/potion',
+        layer1: 'minecraft:item/potion_overlay'
+    })
+    .color(0, '#ffffff')
+    .color(1, '#fc2803')
+
+  event.create('heavy_mars_air')
+    .displayName('Heavy Mars Air')
+    .maxStackSize(64)
+    .textureJson({
+        layer0: 'minecraft:item/potion',
+        layer1: 'minecraft:item/potion_overlay'
+    })
+    .color(0, '#ffffff')
+    .color(1, '#a30000')
+
+  event.create('super_heavy_mars_air')
+    .displayName('Super Heavy Mars Air')
+    .maxStackSize(64)
+    .textureJson({
+        layer0: 'minecraft:item/potion',
+        layer1: 'minecraft:item/potion_overlay'
+    })
+    .color(0, '#ffffff')
+    .color(1, '#570000')
 
 
 

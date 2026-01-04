@@ -43,7 +43,7 @@
 	#where between each value bezier spline interpolation is performed for smooth transitioning
 	#The two default pairs at 0 and 24000 are necessary as they act as bounds. However 
 	#The time speed value for each of them can be freely modified
-	enableInterpolatedTime = false
+	enableInterpolatedTime = true
 	#The value that determines the smoothing factor in the interpolation algorithm.
 	#A high value will make the interpolation softer and curvier
 	#A low value will make the interpolation closer to a piecewise function

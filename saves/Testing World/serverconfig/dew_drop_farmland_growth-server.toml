@@ -1,25 +1,25 @@
 #Whether to stop crop trampling
 noTrample = true
 #Whether to stop random ticks (Water from source blocks and moisture decay)
-noRandomTick = true
+noRandomTick = false
 #When enabled, farmland will not check for blocks above it, and can be built on top of without turning to dirt
 sturdyFarmland = true
 #If splash water potions can be used to moisten farmland
-splashPotionWatering = true
+splashPotionWatering = false
 #The range of splash water bottles for watering, 0 to water only the block hit
 #Range: 0 ~ 8
 splashWaterArea = 3
 #If buckets can be used to moisten farmland
-bucketWatering = true
+bucketWatering = false
 #If bottles can be used to moisten farmland
-bottleWatering = true
+bottleWatering = false
 #If rain will moisten farmland
 rainWatering = true
 #If the farmland will decay daily
 dailyReset = true
 #The time of day daily reset logic will occur (within 10 ticks)
 #Range: 0 ~ 24000
-dailyTimeMin = 5
+dailyTimeMin = 1
 #The chance that farmland will become dry
 #Range: 0 ~ 100
 dailyDryChance = 100
